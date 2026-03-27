@@ -2,6 +2,8 @@
 Comando para acessar o banco via terminal:
 docker exec -it mysql-curso mysql -u root -p
 */
+CREATE DATABASE PROJETO;
+USE PROJETO;
 
 CREATE TABLE CLIENTE(
 	NOME VARCHAR(30),
